@@ -43,7 +43,7 @@ public class Solution {
                 cur = cur.right;
             }
         }
-        
+
         return (Math.abs(R - target) <= Math.abs(target - L)) ? R : L;
     }
 }

@@ -25,6 +25,7 @@ import solutions.TreeNode;
     1
  */
 public class Solution {
+    // divide and conquer O(n)
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         if (nums == null) return null;
         return helper(nums, 0, nums.length - 1);

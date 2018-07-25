@@ -42,6 +42,7 @@ public class Solution {
             return left != null ? left : root;
         }
     }
+
     public TreeNode predecessor(TreeNode root, TreeNode p) {
         if (root == null) return null;
         if (root.val >= p.val) return predecessor(root.left, p);

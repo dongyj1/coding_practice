@@ -110,7 +110,7 @@ public class Solution {
     // Adjacent matrix and DFS
     /*
     A topological ordering is possible if and only if the graph has no directed cycles
-    
+
     Let's build a graph and perform a DFS. The following states made things easier.
 
         visited[i] = -1. Not even exist.

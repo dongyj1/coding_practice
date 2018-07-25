@@ -65,7 +65,7 @@ class Solution {
         }
     }
 
-    // move stack
+    // move stack further
     private void stackNext(Stack<TreeNode> stack, boolean isLeft) {
         TreeNode node = stack.pop();
         if (isLeft) {
