@@ -1,7 +1,4 @@
-package impl;
-
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+package impl.deadlock;
 
 /**
  * Created by dyj on 4/15/18.

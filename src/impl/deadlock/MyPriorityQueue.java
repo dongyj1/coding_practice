@@ -1,4 +1,4 @@
-package impl;
+package impl.deadlock;
 
 import java.util.Comparator;
 

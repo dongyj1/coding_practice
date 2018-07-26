@@ -1,9 +1,7 @@
-package impl;
+package impl.deadlock;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.PriorityQueue;
 
 /**
  * Created by dyj on 4/10/18.
