@@ -26,3 +26,16 @@ public class CombinationSumIV377 {
         return dp[target];
     }
 }
+
+/**
+ * Follow up: If there are negatives in array?
+ *
+ * For this problem, we must add a restriction to it, that each number is used only at most one time.
+ * For example, given {-1, 1}, target = 1, it's obvious that we can choose n 1s and (n - 1) -1, we can sum up to
+ * 1.
+ *
+ * I don't think recursion will work if we don;t add extra requirement. basically, DP is to memorize the
+ * results of sub problems, which is exactly what recursion will re-calculate instead.
+ */
+class FollowUp {
+}
