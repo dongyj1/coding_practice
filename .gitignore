@@ -60,3 +60,14 @@ fabric.properties
 .idea/httpRequests
 
 *.iml
+src/annotations/Unfinished.java
+.DS_Store
+.idea/codeStyleSettings.xml
+.idea/codeStyleSettings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml
+.vscode/launch.json
+src/.DS_Store
+src/ObjectOrientedDesign/.DS_Store
