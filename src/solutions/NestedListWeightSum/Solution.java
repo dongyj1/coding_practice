@@ -10,6 +10,8 @@ Output: 27
 */
 
 
+import java.util.List;
+
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -59,4 +61,11 @@ class Solution {
             return sum;
         }
     }
+}
+interface NestedInteger {
+    public boolean isInteger();
+
+    int getInteger();
+
+    List<NestedInteger> getList();
 }
